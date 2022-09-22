@@ -136,6 +136,11 @@ void conioPutChar (char ch)
    addch (ch);
 }
 
+void conioPutString(const char* s)
+{
+  vwprintw (stdscr, "%s", (char*) s);
+}
+
 /* Put a unicode character on the screen */
 /* Put a string on the screen */
 void conioPrintf (char *format, ...)
