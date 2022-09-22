@@ -83,6 +83,8 @@ void conioSetCursor (int x,int y);
 /* Put a character on the screen */
 void conioPutChar (char ch);
 
+void conioPutString(const char* s);
+
 /* Write a string to the screen */
 void conioPrintf (char *format, ...);
 
